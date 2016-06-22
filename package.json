@@ -4,7 +4,8 @@
   "description": "Solutions for nodeschool workshops challenges",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "lint": "eslint . --fix --ext .js,.jsx"
   },
   "repository": {
     "type": "git",
